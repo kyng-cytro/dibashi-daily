@@ -36,9 +36,9 @@
     scroll-margin-top: 2rem;
   }
 
-  img {
-    @apply grayscale hover:grayscale-0 focus:grayscale-0 transition-all duration-300;
-  }
+  /* img { */
+  /*   @apply grayscale hover:grayscale-0 focus:grayscale-0 transition-all duration-300; */
+  /* } */
 }
 
 @utilities {
