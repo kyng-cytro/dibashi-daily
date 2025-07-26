@@ -7,10 +7,10 @@ type ExperienceItemProps = Experience & {
 };
 
 export function ExperienceItem({
+  image,
   title,
   company,
   period,
-  imageAlt,
   headline,
   location,
   className,
@@ -37,8 +37,8 @@ export function ExperienceItem({
       </div>
       <div className="mb-4">
         <img
-          src={`/placeholder.svg?height=200&width=400`}
-          alt={imageAlt}
+          src={image.src}
+          alt={image.alt}
           className="w-full h-32 md:h-48 object-cover border border-foreground"
         />
       </div>

@@ -15,8 +15,8 @@ export function ContactSection() {
             </h3>
             <div className="mb-4">
               <img
-                src="/placeholder.svg?height=150&width=300"
-                alt="Professional workspace"
+                src="/images/contact.png"
+                alt="Contact"
                 className="w-full h-32 object-cover border boder-muted-foreground"
               />
             </div>
@@ -27,6 +27,7 @@ export function ContactSection() {
             </p>
             <div className="space-y-3">
               <Link
+                target="_blank"
                 href="mailto:johndibashi@gmail.com"
                 className="flex items-center gap-3 text-sm hover:underline"
               >
@@ -34,6 +35,7 @@ export function ContactSection() {
                 johndibashi@gmail.com
               </Link>
               <Link
+                target="_blank"
                 href="https://github.com/kyng-cytro"
                 className="flex items-center gap-3 text-sm hover:underline"
               >
@@ -41,6 +43,7 @@ export function ContactSection() {
                 github.com/kyng-cytro
               </Link>
               <Link
+                target="_blank"
                 href="https://www.linkedin.com/in/john-dibashi"
                 className="flex items-center gap-3 text-sm hover:underline"
               >

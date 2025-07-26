@@ -12,7 +12,7 @@ export function AboutSection() {
             <div className="flex flex-col md:flex-row gap-4">
               <div className="md:w-32 md:h-32 w-24 h-24 mx-auto md:mx-0 flex-shrink-0">
                 <img
-                  src="/placeholder.svg?height=128&width=128"
+                  src="/images/logo.gif"
                   alt="John U. Dibashi - Full-Stack Developer"
                   className="w-full h-full object-cover border-2 border-foreground"
                 />

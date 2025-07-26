@@ -35,6 +35,10 @@
   section {
     scroll-margin-top: 2rem;
   }
+
+  img {
+    @apply grayscale hover:grayscale-0 transition-all duration-300;
+  }
 }
 
 @utilities {

@@ -9,18 +9,18 @@ type ProjectItemProps = Project & {
 
 export function ProjectItem({
   link,
+  image,
   title,
-  imageAlt,
   className,
   techStack,
   description,
 }: ProjectItemProps) {
   return (
     <article className={cn("border border-foreground p-4", className)}>
-      <div className="mb-3">
+      <div className="mb-3 dark:bg-foreground">
         <img
-          src={`/placeholder.svg?height=150&width=300`}
-          alt={imageAlt}
+          src={image.src}
+          alt={image.alt}
           className="w-full h-32 object-cover border boder-muted-foreground"
         />
       </div>
@@ -29,6 +29,7 @@ export function ProjectItem({
         {link && (
           <Link
             href={link}
+            target="_blank"
             className="text-xs hover:underline flex items-center gap-1 self-start"
           >
             VIEW <ExternalLink size={12} />

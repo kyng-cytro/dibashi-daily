@@ -8,8 +8,8 @@ export function EducationSection() {
         <div className="flex flex-col md:flex-row gap-6">
           <div className="md:w-48 flex-shrink-0">
             <img
-              src="/placeholder.svg?height=200&width=200"
-              alt="University of Ilorin Campus"
+              src="/images/uni-ilorin.jpg"
+              alt="University of Ilorin"
               className="w-full h-32 md:h-48 object-cover border border-foreground"
             />
           </div>

@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "John U. Dibashi - Full-Stack Developer",
   description: "TypeScript • Nuxt • STEM Advocate",
   keywords: "TypeScript, Full-Stack, Developer",
+  icons: {
+    icon: "/images/logo.png",
+  },
   openGraph: {
     type: "website",
     url: "https://cytro.com.ng",
@@ -15,8 +18,7 @@ export const metadata: Metadata = {
     description: "TypeScript • Nuxt • STEM Advocate",
     images: [
       {
-        url: "https://cytro.com.ng/og.png",
-        alt: "John U. Dibashi - Full-Stack Developer",
+        url: "https://cytro.com.ng/images/logo.png",
       },
     ],
   },

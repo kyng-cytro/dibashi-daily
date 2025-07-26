@@ -12,7 +12,7 @@ export default function Component() {
   return (
     <div className="min-h-screen font-serif">
       <Header />
-      <main className="max-w-6xl mx-auto px-4 py-6 md:py-8">
+      <main className="max-w-5xl mx-auto px-4 py-6 md:py-8">
         <AboutSection />
         <section id="experience" className="mb-8 md:mb-12">
           <div className="bg-background border-2 border-foreground p-4 md:p-6">
@@ -24,10 +24,10 @@ export default function Component() {
                 <ExperienceItem
                   key={index}
                   title={experience.title}
+                  image={experience.image}
                   company={experience.company}
-                  location={experience.location}
                   period={experience.period}
-                  imageAlt={experience.imageAlt}
+                  location={experience.location}
                   headline={experience.headline}
                   achievements={experience.achievements}
                   isLast={index === experiences.length - 1}
@@ -45,8 +45,8 @@ export default function Component() {
               {projects.map((project, index) => (
                 <ProjectItem
                   key={index}
+                  image={project.image}
                   title={project.title}
-                  imageAlt={project.imageAlt}
                   description={project.description}
                   techStack={project.techStack}
                   link={project.link}
