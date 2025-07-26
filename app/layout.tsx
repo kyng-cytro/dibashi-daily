@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
-import { GeistSans } from "geist/font/sans";
+import { ThemeProvider } from "next-themes";
 import { GeistMono } from "geist/font/mono";
+import { GeistSans } from "geist/font/sans";
+import type { Metadata } from "next";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
   title: "John U. Dibashi - Full-Stack Developer",
@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <style>{`
           html {
@@ -40,7 +40,11 @@ export default function RootLayout({
           }
         `}</style>
       </head>
-      <body>{<ThemeProvider attribute="class">{children}</ThemeProvider>}</body>
+      <body>
+        <ThemeProvider attribute="class" defaultTheme="system">
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

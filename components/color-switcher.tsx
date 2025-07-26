@@ -6,7 +6,7 @@ export function ColorSwitcher() {
   const { theme, setTheme } = useTheme();
   return (
     <button
-      className="uppercase hover:underline"
+      className="uppercase hover:underline cursor-pointer"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
       Switch Theme

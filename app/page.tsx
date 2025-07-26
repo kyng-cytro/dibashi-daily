@@ -1,10 +1,10 @@
-import { Header } from "@/components/header";
 import { AboutSection } from "@/components/about-section";
-import { ExperienceItem } from "@/components/experience-item";
-import { ProjectItem } from "@/components/project-item";
-import { EducationSection } from "@/components/education-section";
 import { ContactSection } from "@/components/contact-section";
+import { EducationSection } from "@/components/education-section";
+import { ExperienceItem } from "@/components/experience-item";
 import { Footer } from "@/components/footer";
+import { Header } from "@/components/header";
+import { ProjectItem } from "@/components/project-item";
 import { experiences } from "@/data/experiences";
 import { projects } from "@/data/projects";
 

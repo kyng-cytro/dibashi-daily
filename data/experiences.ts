@@ -28,7 +28,7 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    title: "Contract Backend Developer & System Architect",
+    title: "CONTRACT: Backend Developer & System Architect",
     company: "Tourism Business Unit - Sterling Bank Limited",
     location: "Lagos, Nigeria",
     period: "AUG 2024",
@@ -44,13 +44,13 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    title: "Contract Frontend Developer & Performance Specialist",
+    title: "CONTRACT: Frontend Developer & Performance Specialist",
     company: "Blanche Aigle Communications",
     location: "Lagos, Nigeria",
     period: "JAN 2025",
     image: {
-      src: "/placeholder.svg?height=200&width=400",
-      alt: "Website performance optimization results",
+      src: "/images/experiences/blanche-aigle.png",
+      alt: "Blanche Aigle Communications",
     },
     achievements: [
       "Redesigned and optimized the company's landing page, resulting in a 35% increase in user engagement and 20% reduction in bounce rates through improved UX design.",
@@ -59,13 +59,13 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    title: "Contract Systems Developer & Technical Consultant",
+    title: "CONTRACT: Systems Developer & Technical Consultant",
     company: "F.O. Lanraj Enterprises",
     location: "Lagos, Nigeria",
     period: "APR 2024-PRESENT",
     image: {
-      src: "/placeholder.svg?height=200&width=400",
-      alt: "Internal business management systems",
+      src: "/images/experiences/fo-lanraj.png",
+      alt: "F.O. Lanraj Enterprises",
     },
     achievements: [
       "Developed and deployed a comprehensive sales, purchase, expense, and inventory management system, reducing manual record-keeping by 80% and improving data accuracy by 45%.",

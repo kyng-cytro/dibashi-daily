@@ -37,7 +37,7 @@
   }
 
   img {
-    @apply grayscale hover:grayscale-0 transition-all duration-300;
+    @apply grayscale hover:grayscale-0 focus:grayscale-0 transition-all duration-300;
   }
 }
 
