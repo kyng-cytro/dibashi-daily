@@ -1,3 +1,13 @@
+export type Experience = {
+  title: string;
+  company: string;
+  location: string;
+  period: string;
+  imageAlt: string;
+  headline?: string;
+  achievements: string[];
+};
+
 export const experiences = [
   {
     title: "Full-Stack Software Developer",
@@ -48,4 +58,4 @@ export const experiences = [
       "Provided technical consulting on system architecture and workflow automation, resulting in a 25% improvement in overall business efficiency.",
     ],
   },
-]
+];

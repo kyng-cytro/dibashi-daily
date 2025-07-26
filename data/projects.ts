@@ -1,4 +1,18 @@
-export const projects = [
+export type Project = {
+  title: string;
+  link?: string;
+  imageAlt: string;
+  description: string;
+  techStack: string;
+};
+
+export const projects: Project[] = [
+  {
+    title: "Spen Agro",
+    imageAlt: "Spen Agro Site Interface",
+    description: "",
+    techStack: "Laravel, Vue.js, Tailwind CSS, Inertia.js",
+  },
   {
     title: "Torrista",
     imageAlt: "Torrista Marketplace Interface",
@@ -31,4 +45,4 @@ export const projects = [
     techStack: "Vue.js, Node.js, MySQL, Chart.js",
     link: "#",
   },
-]
+];

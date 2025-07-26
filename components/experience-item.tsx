@@ -1,26 +1,29 @@
-interface ExperienceItemProps {
-  title: string
-  company: string
-  location: string
-  period: string
-  imageAlt: string
-  headline?: string
-  achievements: string[]
-  isLast?: boolean
-}
+import { Experience } from "@/data/experiences";
+import { cn } from "@/lib/utils";
+
+type ExperienceItemProps = Experience & {
+  className?: string;
+  isLast?: boolean;
+};
 
 export function ExperienceItem({
   title,
   company,
-  location,
   period,
   imageAlt,
   headline,
+  location,
+  className,
   achievements,
   isLast = false,
 }: ExperienceItemProps) {
   return (
-    <article className={`${!isLast ? "border-b border-gray-300 pb-6" : ""}`}>
+    <article
+      className={cn(
+        isLast ? "border-b border-muted-foreground pb-6" : "",
+        className,
+      )}
+    >
       <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-3 gap-2">
         <div>
           <h3 className="text-lg md:text-xl font-bold">{title}</h3>
@@ -28,13 +31,15 @@ export function ExperienceItem({
             {company} • {location}
           </p>
         </div>
-        <span className="text-xs md:text-sm font-bold bg-black text-white px-2 py-1 self-start">{period}</span>
+        <span className="text-xs md:text-sm font-bold bg-foreground text-background px-2 py-1 self-start">
+          {period}
+        </span>
       </div>
       <div className="mb-4">
         <img
           src={`/placeholder.svg?height=200&width=400`}
           alt={imageAlt}
-          className="w-full h-32 md:h-48 object-cover border border-black"
+          className="w-full h-32 md:h-48 object-cover border border-foreground"
         />
       </div>
       <div className="space-y-2 text-sm leading-relaxed">
@@ -48,5 +53,5 @@ export function ExperienceItem({
         ))}
       </div>
     </article>
-  )
+  );
 }

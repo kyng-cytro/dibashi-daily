@@ -1,10 +1,10 @@
-import { MapPin, Phone } from "lucide-react"
+import { MapPin, Phone } from "lucide-react";
 
 export function AboutSection() {
   return (
     <section id="about" className="mb-8 md:mb-12">
-      <div className="bg-white border-2 border-black p-4 md:p-6">
-        <h2 className="text-2xl md:text-3xl font-bold border-b-2 border-black pb-2 mb-4 tracking-wide">
+      <div className="bg-background border-2 border-foreground p-4 md:p-6">
+        <h2 className="text-2xl md:text-3xl font-bold border-b-2 border-foreground pb-2 mb-4 tracking-wide">
           FULLSTACK SOFTWARE DEVELOPER
         </h2>
         <div className="grid lg:grid-cols-3 gap-6">
@@ -14,11 +14,13 @@ export function AboutSection() {
                 <img
                   src="/placeholder.svg?height=128&width=128"
                   alt="John U. Dibashi - Full-Stack Developer"
-                  className="w-full h-full object-cover border-2 border-black"
+                  className="w-full h-full object-cover border-2 border-foreground"
                 />
               </div>
               <div className="flex-1">
-                <h3 className="text-xl md:text-2xl font-bold mb-2">John U. Dibashi</h3>
+                <h3 className="text-xl md:text-2xl font-bold mb-2">
+                  John U. Dibashi
+                </h3>
                 <div className="text-sm space-y-1 mb-3">
                   <div className="flex items-center gap-2 justify-center md:justify-start">
                     <MapPin size={14} />
@@ -30,24 +32,30 @@ export function AboutSection() {
                   </div>
                 </div>
                 <p className="text-sm md:text-base leading-relaxed">
-                  <span className="font-bold text-xl">J</span>ohn U. Dibashi is a seasoned full-stack software developer
-                  with over 3 years of experience building scalable web applications and systems. Based in Lagos, he
-                  specializes in creating efficient solutions that drive business growth and enhance user experiences.
-                  His expertise spans modern web technologies and he has a proven track record of delivering high-impact
-                  projects.
+                  <span className="font-bold text-xl">J</span>ohn U. Dibashi is
+                  a seasoned full-stack software developer with over 3 years of
+                  experience building scalable web applications and systems.
+                  Based in Lagos, he specializes in creating efficient solutions
+                  that drive business growth and enhance user experiences. His
+                  expertise spans modern web technologies and he has a proven
+                  track record of delivering high-impact projects.
                 </p>
               </div>
             </div>
-            <div className="border-t-2 border-black pt-4">
+            <div className="border-t-2 border-foreground pt-4">
               <p className="text-sm leading-relaxed">
-                <span className="font-bold">EXCLUSIVE SCOOP:</span> Sources confirm John has successfully deployed to
-                production without breaking anything... twice! He specializes in making computers do exactly what
-                they're supposed to do, which is apparently harder than it sounds.
+                <span className="font-bold">EXCLUSIVE SCOOP:</span> Sources
+                confirm John has successfully deployed to production without
+                breaking anything... twice! He specializes in making computers
+                do exactly what they're supposed to do, which is apparently
+                harder than it sounds.
               </p>
             </div>
           </div>
-          <div className="border-l-0 lg:border-l-2 border-t-2 lg:border-t-0 border-black pt-4 lg:pt-0 lg:pl-6">
-            <h3 className="font-bold text-lg mb-3 border-b border-black pb-1">TECHNICAL EXPERTISE</h3>
+          <div className="border-l-0 lg:border-l-2 border-t-2 lg:border-t-0 border-foreground pt-4 lg:pt-0 lg:pl-6">
+            <h3 className="font-bold text-lg mb-3 border-b border-foreground pb-1">
+              TECHNICAL EXPERTISE
+            </h3>
             <div className="space-y-3 text-sm">
               <div>
                 <h4 className="font-bold">Programming Languages:</h4>
@@ -59,16 +67,21 @@ export function AboutSection() {
               </div>
               <div>
                 <h4 className="font-bold">Technologies & Tools:</h4>
-                <p>MySQL, PostgreSQL, Docker, Git, GitHub, Linux, Postman, Neovim</p>
+                <p>
+                  MySQL, PostgreSQL, Docker, Git, GitHub, Linux, Postman, Neovim
+                </p>
               </div>
               <div>
                 <h4 className="font-bold">Specializations:</h4>
-                <p>SEO Optimization, RESTful APIs, Responsive Design, Web Performance</p>
+                <p>
+                  SEO Optimization, RESTful APIs, Responsive Design, Web
+                  Performance
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
