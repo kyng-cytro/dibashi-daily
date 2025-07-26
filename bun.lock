@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "my-v0-project",
+      "name": "dibashi-daily",
       "dependencies": {
         "@tailwindcss/postcss": "^4.1.11",
         "clsx": "^2.1.1",
