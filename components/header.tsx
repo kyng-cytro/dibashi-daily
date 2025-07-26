@@ -1,3 +1,5 @@
+import { ColorSwitcher } from "@/components/color-switcher";
+
 export function Header() {
   return (
     <header className="border-b-4 border-foreground bg-background">
@@ -6,8 +8,8 @@ export function Header() {
           <h1 className="text-3xl md:text-6xl font-bold tracking-wider">
             THE DIBASHI DAILY
           </h1>
-          <p className="text-xs md:text-sm tracking-widest mt-2">
-            EST. 2001 • LAGOS EDITION • 12,847 VIEWS TODAY
+          <p className="text-xs md:text-sm tracking-widest mt-2 uppercase">
+            EST. 2001 • LAGOS EDITION • 12,847 VIEWS TODAY • <ColorSwitcher />
           </p>
         </div>
         <nav className="flex flex-wrap justify-center space-x-4 md:space-x-8 text-xs md:text-sm font-bold tracking-wide">

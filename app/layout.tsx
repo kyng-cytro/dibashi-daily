@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
   title: "John U. Dibashi - Full-Stack Developer",
@@ -37,7 +38,7 @@ export default function RootLayout({
           }
         `}</style>
       </head>
-      <body>{children}</body>
+      <body>{<ThemeProvider attribute="class">{children}</ThemeProvider>}</body>
     </html>
   );
 }
