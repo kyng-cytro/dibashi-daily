@@ -36,7 +36,7 @@ export function AboutSection() {
                 </div>
                 <p className="text-sm md:text-base leading-relaxed">
                   <span className="font-bold text-xl">J</span>ohn U. Dibashi is
-                  a seasoned full-stack software developer with over 3 years of
+                  a seasoned full-stack software developer with over 5 years of
                   experience building scalable web applications and systems.
                   Based in Lagos, he specializes in creating efficient solutions
                   that drive business growth and enhance user experiences. His
