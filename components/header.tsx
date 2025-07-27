@@ -9,7 +9,7 @@ export function Header() {
             THE DIBASHI DAILY
           </h1>
           <p className="text-xs md:text-sm tracking-widest mt-2 uppercase">
-            EST. 2001 • LAGOS EDITION • 1M VIEWS • <ColorSwitcher />
+            EST. 2001 • LAGOS EDITION • 6 MIN READ • <ColorSwitcher />
           </p>
         </div>
         <nav className="flex flex-wrap justify-center space-x-4 md:space-x-8 text-xs md:text-sm font-bold tracking-wide">
