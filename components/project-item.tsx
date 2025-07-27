@@ -1,6 +1,7 @@
 import { Project } from "@/data/projects";
 import { cn } from "@/lib/utils";
 import { ExternalLink } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 type ProjectItemProps = Project & {
@@ -18,7 +19,9 @@ export function ProjectItem({
   return (
     <article className={cn("border border-foreground p-4", className)}>
       <div className="mb-3 dark:bg-foreground">
-        <img
+        <Image
+          width={620}
+          height={200}
           src={image.src}
           alt={image.alt}
           className="w-full h-32 object-cover border boder-muted-foreground"

@@ -1,4 +1,5 @@
-import { Mail, Github, Linkedin, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export function ContactSection() {
@@ -14,9 +15,11 @@ export function ContactSection() {
               GET IN TOUCH
             </h3>
             <div className="mb-4">
-              <img
-                src="/images/contact.png"
+              <Image
+                width={620}
+                height={200}
                 alt="Contact"
+                src="/images/contact.png"
                 className="w-full h-32 object-cover border boder-muted-foreground"
               />
             </div>

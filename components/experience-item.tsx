@@ -1,5 +1,6 @@
 import { Experience } from "@/data/experiences";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 type ExperienceItemProps = Experience & {
   className?: string;
@@ -36,7 +37,9 @@ export function ExperienceItem({
         </span>
       </div>
       <div className="mb-4">
-        <img
+        <Image
+          width={620}
+          height={200}
           src={image.src}
           alt={image.alt}
           className="w-full h-32 md:h-48 object-cover border border-foreground"

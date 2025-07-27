@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function EducationSection() {
   return (
     <section className="mb-8 md:mb-12">
@@ -7,7 +9,9 @@ export function EducationSection() {
         </h2>
         <div className="flex flex-col md:flex-row gap-6">
           <div className="md:w-48 flex-shrink-0">
-            <img
+            <Image
+              width={200}
+              height={200}
               src="/images/uni-ilorin.jpg"
               alt="University of Ilorin"
               className="w-full h-32 md:h-48 object-cover border border-foreground"

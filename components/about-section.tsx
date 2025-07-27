@@ -1,4 +1,5 @@
 import { MapPin, Phone } from "lucide-react";
+import Image from "next/image";
 
 export function AboutSection() {
   return (
@@ -11,7 +12,9 @@ export function AboutSection() {
           <div className="lg:col-span-2 space-y-4">
             <div className="flex flex-col md:flex-row gap-4">
               <div className="md:w-32 md:h-32 w-24 h-24 mx-auto md:mx-0 flex-shrink-0">
-                <img
+                <Image
+                  width={150}
+                  height={150}
                   src="/images/logo.gif"
                   alt="John U. Dibashi - Full-Stack Developer"
                   className="w-full h-full object-cover border-2 border-foreground"
