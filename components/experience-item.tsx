@@ -49,7 +49,7 @@ export function ExperienceItem({
           </p>
         )}
         {achievements.map((achievement, index) => (
-          <p key={index}>• {achievement}</p>
+          <p key={index}>{achievement}</p>
         ))}
       </div>
     </article>
