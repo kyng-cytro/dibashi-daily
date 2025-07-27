@@ -30,7 +30,7 @@ export const projects: Project[] = [
     },
     description:
       "Professional Invoicing, Simplified - Create, manage, and track invoices with ease. Built for freelancers and small businesses who want to focus on their work, not paperwork.",
-    link: "https://cy-paid.com",
+    link: "https://cy-paid.cytro.com.ng",
     techStack: "Next.js, Tailwind CSS, React.js, Supabase, PostgreSQL",
   },
   {

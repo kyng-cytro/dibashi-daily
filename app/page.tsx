@@ -7,6 +7,8 @@ import { Header } from "@/components/header";
 import { ProjectItem } from "@/components/project-item";
 import { experiences } from "@/data/experiences";
 import { projects } from "@/data/projects";
+import { GithubIcon } from "lucide-react";
+import Link from "next/link";
 
 export default function Component() {
   return (
@@ -41,7 +43,7 @@ export default function Component() {
             <h2 className="text-2xl md:text-3xl font-bold border-b-2 border-foreground pb-2 mb-6 tracking-wide">
               FEATURED PROJECTS
             </h2>
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
               {projects.map((project, index) => (
                 <ProjectItem
                   key={index}
@@ -52,6 +54,15 @@ export default function Component() {
                   link={project.link}
                 />
               ))}
+            </div>
+            <div className="flex items-center justify-center gap-2 text-sm">
+              <Link
+                target="_blank"
+                href="https://github.com/kyng-cytro"
+                className="flex items-center gap-2 text-sm hover:underline"
+              >
+                SEE MORE ON <GithubIcon size={16} />
+              </Link>
             </div>
           </div>
         </section>
