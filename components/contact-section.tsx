@@ -53,10 +53,6 @@ export function ContactSection() {
                 <Linkedin size={16} />
                 linkedin.com/in/john-dibashi
               </Link>
-              <div className="flex items-center gap-3 text-sm">
-                <Phone size={16} />
-                +2347065117614
-              </div>
             </div>
           </div>
           <div className="border-l-0 lg:border-l-2 border-t-2 lg:border-t-0 border-foreground pt-4 lg:pt-0 lg:pl-6">

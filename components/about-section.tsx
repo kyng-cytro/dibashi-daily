@@ -29,10 +29,6 @@ export function AboutSection() {
                     <MapPin size={14} />
                     <span>Lagos, Nigeria</span>
                   </div>
-                  <div className="flex items-center gap-2 justify-center md:justify-start">
-                    <Phone size={14} />
-                    <span>+2347065117614</span>
-                  </div>
                 </div>
                 <p className="text-sm md:text-base leading-relaxed">
                   <span className="font-bold text-xl">J</span>ohn U. Dibashi is
