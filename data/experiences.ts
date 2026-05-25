@@ -13,6 +13,22 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
+    title: "CONTRACT: Senior Product Engineer",
+    company: "DAYEMPIRE SMM LTD",
+    location: "Lagos, Nigeria",
+    period: "OCT 2025-PRESENT",
+    image: {
+      src: "/images/experiences/dayempire.png",
+      alt: "DAYEMPIRE SMM LTD",
+    },
+    achievements: [
+      "DAYEMPIRE came with a challenge I genuinely hadn't faced before: build a real-time trivia platform from scratch, fast, and make it actually fun to play. Not just a quiz app. A live, competitive experience where timing, fairness, and engagement all have to work together at the same time.",
+      "So I built swl.live. The core of it is a real-time trivia engine I designed to handle session orchestration, live scoring, and leaderboard updates without falling apart under pressure. We hit 1,000+ active users in the first week alone, and sustained roughly 2,000 daily gameplay sessions. That's not a number I expected so quickly, and honestly, it's what pushed me to take the reliability side of things very seriously.",
+      "One thing that wasn't obvious upfront: question quality degrades fast at scale. Once you're generating thousands of questions, duplicates creep in and integrity breaks down. I built a validation pipeline with historical tracking to catch and eliminate duplicates across 10,000+ generated entries. It's not glamorous work, but it's the kind of thing that separates a polished product from a sloppy one.",
+      "The platform is still growing. I'm currently driving the mobile expansion, designing APIs and shared business logic that will let us ship on iOS and Android with offline tolerance and performance on par with the web experience. The engagement loop is something I keep iterating on too, using real-time usage data to understand where players drop off and what keeps them coming back.",
+    ],
+  },
+  {
     title: "Full-Stack Software Developer",
     company: "earlySTEMer",
     location: "Lagos, Nigeria",

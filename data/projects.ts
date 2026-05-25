@@ -11,6 +11,29 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Super Win League (SWL)",
+    image: {
+      src: "/images/projects/swl.png",
+      alt: "Super Win League (SWL)",
+    },
+    description:
+      "Play Smart, Win Live. A real-time competitive trivia platform with live session orchestration, dynamic leaderboards, and daily competitions. Reached 1,000+ active users in its first week with ~2,000 daily gameplay sessions.",
+    link: "https://swl.live",
+    techStack:
+      "TypeScript, Node.js, WebSockets, PostgreSQL, Docker",
+  },
+  {
+    title: "Over Tune",
+    image: {
+      src: "/images/projects/over-tune.png",
+      alt: "Over Tune",
+    },
+    description:
+      "A Chrome extension that brings full control to YouTube Music. Customize keyboard shortcuts, route audio to any device, view a now-playing widget, and control playback remotely from another device via secure QR pairing.",
+    link: "https://github.com/kyng-cytro/over-tune",
+    techStack: "Vue.js, TypeScript, Tailwind CSS, Vite, Supabase, CRXJS",
+  },
+  {
     title: "Cylip|Notes",
     image: {
       src: "/images/projects/cylip-notes.png",
