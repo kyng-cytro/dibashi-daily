@@ -6,7 +6,7 @@ export function AboutSection() {
     <section id="about" className="mb-8 md:mb-12">
       <div className="bg-background border-2 border-foreground p-4 md:p-6">
         <h2 className="text-2xl md:text-3xl font-bold border-b-2 border-foreground pb-2 mb-4 tracking-wide">
-          FULLSTACK SOFTWARE DEVELOPER
+          FULLSTACK PRODUCT ENGINEER
         </h2>
         <div className="grid lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2 space-y-4">
@@ -32,12 +32,12 @@ export function AboutSection() {
                 </div>
                 <p className="text-sm md:text-base leading-relaxed">
                   <span className="font-bold text-xl">J</span>ohn U. Dibashi is
-                  a seasoned full-stack software developer with over 5 years of
-                  experience building scalable web applications and systems.
-                  Based in Lagos, he specializes in creating efficient solutions
-                  that drive business growth and enhance user experiences. His
-                  expertise spans modern web technologies and he has a proven
-                  track record of delivering high-impact projects.
+                  a Full-Stack Product Engineer with 6+ years building and
+                  scaling user-facing platforms across education, tourism, and
+                  gaming. He ships features end-to-end — from API design and
+                  database modeling to frontend UX and performance optimization
+                  — with a strong focus on rapid iteration, product metrics, and
+                  scalable architecture.
                 </p>
               </div>
             </div>
@@ -58,11 +58,11 @@ export function AboutSection() {
             <div className="space-y-3 text-sm">
               <div>
                 <h4 className="font-bold">Programming Languages:</h4>
-                <p>JavaScript, TypeScript, Python, HTML, CSS, PHP</p>
+                <p>JavaScript, TypeScript, Python, Go, Dart, HTML, CSS, PHP</p>
               </div>
               <div>
                 <h4 className="font-bold">Frameworks & Libraries:</h4>
-                <p>Node.js, Nuxt.js, Vue.js, Hono.js, Express.js, Zod</p>
+                <p>Node.js, Nuxt.js, Vue.js, Hono.js, Express.js, React Native, Flutter, Zod</p>
               </div>
               <div>
                 <h4 className="font-bold">Technologies & Tools:</h4>
@@ -74,7 +74,7 @@ export function AboutSection() {
                 <h4 className="font-bold">Specializations:</h4>
                 <p>
                   SEO Optimization, RESTful APIs, Responsive Design, Web
-                  Performance
+                  Performance, Cross-platform Mobile Development
                 </p>
               </div>
             </div>
