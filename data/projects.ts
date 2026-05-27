@@ -11,6 +11,18 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Cy TTY",
+    image: {
+      src: "/images/projects/cy-tty.png",
+      alt: "Cy TTY",
+    },
+    description:
+      "A mobile SSH terminal for Android and iOS. Connect to remote servers, manage multiple live sessions, and work from your phone with a proper terminal experience. Features SSH key auth (RSA, Ed25519, ECDSA), VT100/xterm-256color emulation, local network host discovery, encrypted credential storage, and customizable themes.",
+    link: "https://github.com/kyng-cytro/cy-tty",
+    techStack:
+      "Expo, React Native, TypeScript, React Native Skia, React Native Paper, Expo Router",
+  },
+  {
     title: "Super Win League (SWL)",
     image: {
       src: "/images/projects/swl.png",
@@ -66,16 +78,5 @@ export const projects: Project[] = [
     description:
       "A robust tour marketplace handling seamless booking, secure payment processing, and comprehensive user management. Includes tour discovery, reviews, and booking analytics.",
     techStack: "Node.js, Hono.js, Drizzle, Zod, PostgreSQL, Docker",
-  },
-  {
-    title: "Spen Agro",
-    image: {
-      src: "/images/projects/spen-agro.png",
-      alt: "Spen Agro",
-    },
-    description:
-      "A dynamic landing page and admin dashboard, the platform allows the team to list products, manage a user waiting list, compose and send targeted emails to users, streamlining marketing and customer engagement from a unified interface.",
-    link: "https://spenagro.com",
-    techStack: "Laravel, Vue.js, Tailwind CSS, Inertia.js",
   },
 ];
