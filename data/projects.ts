@@ -23,6 +23,41 @@ export const projects: Project[] = [
       "Expo, React Native, TypeScript, React Native Skia, Lib-SSH, Lib-ghoshtty-vt",
   },
   {
+    title: "Cy-Paid",
+    image: {
+      src: "/images/projects/cy-paid.png",
+      alt: "Cy-Paid",
+    },
+    description:
+      "Professional Invoicing, Simplified - Create, manage, and track invoices with ease. Drop in a contract and it drafts the invoice for you, bill in 30 currencies with live conversion, and pull revenue, aged debt and VAT reports. Ships with a REST API and an MCP server so your AI tools can read your books.",
+    link: "https://cy-paid.cytro.com.ng",
+    techStack:
+      "TanStack Start, React.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL, Vite",
+  },
+  {
+    title: "Cylip|Notes",
+    image: {
+      src: "/images/projects/cylip-notes.png",
+      alt: "Cylip|Notes",
+    },
+    description:
+      "Snap, Note, Remember - A lightweight, real-time note-taking application powered by AI, with support for labels, public notes and designed to run efficiently on Cloudflare.",
+    link: "https://cylip-notes.cytro.com.ng",
+    techStack:
+      "Nuxt.js, Vue.js, Tailwind CSS, Drizzle, Zod, SQLite, Cloudflare",
+  },
+  {
+    title: "Over Tune",
+    image: {
+      src: "/images/projects/over-tune.png",
+      alt: "Over Tune",
+    },
+    description:
+      "A Chrome extension that brings full control to YouTube Music. Customize keyboard shortcuts, route audio to any device, view a now-playing widget, and control playback remotely from another device via secure QR pairing.",
+    link: "https://github.com/kyng-cytro/over-tune",
+    techStack: "Vue.js, TypeScript, Tailwind CSS, Vite, Supabase, CRXJS",
+  },
+  {
     title: "Super Win League (SWL)",
     image: {
       src: "/images/projects/swl.png",
@@ -44,39 +79,5 @@ export const projects: Project[] = [
     description:
       "A robust tour marketplace handling seamless booking, secure payment processing, and comprehensive user management. Includes tour discovery, reviews, and booking analytics.",
     techStack: "Node.js, Hono.js, Drizzle, Zod, PostgreSQL, Docker",
-  },
-  {
-    title: "Over Tune",
-    image: {
-      src: "/images/projects/over-tune.png",
-      alt: "Over Tune",
-    },
-    description:
-      "A Chrome extension that brings full control to YouTube Music. Customize keyboard shortcuts, route audio to any device, view a now-playing widget, and control playback remotely from another device via secure QR pairing.",
-    link: "https://github.com/kyng-cytro/over-tune",
-    techStack: "Vue.js, TypeScript, Tailwind CSS, Vite, Supabase, CRXJS",
-  },
-  {
-    title: "Cylip|Notes",
-    image: {
-      src: "/images/projects/cylip-notes.png",
-      alt: "Cylip|Notes",
-    },
-    description:
-      "Snap, Note, Remember - A lightweight, real-time note-taking application powered by AI, with support for labels, public notes and designed to run efficiently on Cloudflare.",
-    link: "https://cylip-notes.cytro.com.ng",
-    techStack:
-      "Nuxt.js, Vue.js, Tailwind CSS, Drizzle, Zod, SQLite, Cloudflare",
-  },
-  {
-    title: "Cy-Paid",
-    image: {
-      src: "/images/projects/cy-paid.png",
-      alt: "Cy-Paid",
-    },
-    description:
-      "Professional Invoicing, Simplified - Create, manage, and track invoices with ease. Built for freelancers and small businesses who want to focus on their work, not paperwork.",
-    link: "https://cy-paid.cytro.com.ng",
-    techStack: "Next.js, Tailwind CSS, React.js, Supabase, PostgreSQL",
   },
 ];
